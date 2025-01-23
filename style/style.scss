@@ -330,6 +330,11 @@ input[type="checkbox"] {
     max-width: 430px;
     width: 100%;
     height: 370px;
+    transition: all linear 0.2s;
+
+    &:hover {
+        transform: scale(1.04);
+    }
 
     .blog__cards__image {
         display: flex;
