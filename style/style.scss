@@ -100,14 +100,6 @@ p,a {
     }
 }
 
-.main__paragraf {
-    margin: 25px 0 50px 0;
-    width: 100%;
-    .p {
-        width: 100%;
-        grid-column: 1/1;
-    }
-}
 @media (max-width: 450px) {
     .main__navigation__item {
         font-size: 12px;
